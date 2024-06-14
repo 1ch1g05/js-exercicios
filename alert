@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<title> Exercício 01 </title>
+<script> alert("Olá, mundo!"); </script>
+</head>
+</html>
