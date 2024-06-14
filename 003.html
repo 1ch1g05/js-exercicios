@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Exercício 003</title>
+    <script>
+      var numero01 = prompt("informe o primeiro número:");
+      var numero02 = prompt("Informe o segundo número:");
+      var numero03 = prompt("Informe o terceiro número:");
+      if ((numero01 > numero02) && (numero01 > numero03)) mensagem = "O primeiro número é maior!"
+      else 
+        if ((numero02 > numero01) && (numero02 > numero03)) mensagem = "O segundo número é maior!"
+      else
+          if ((numero03 > numero01) && (numero03 > numero02)) mensagem = "O terceiro número é maior!"
+      else 
+            mensagem = "Os números são iguais ou nada foi informado!";
+      alert(mensagem);
+    </script>
+  </head>
+</html>
